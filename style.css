@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
+@media only screen and (max-width: 880px) {
+    .home-imgHover {
+        display: none;
+    }
+    .navbar {
+        display: none;
+    }
+    .btns-options {
+        display: grid;
+        grid-row-gap: 16px;
+    }
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +25,6 @@
     color: #081b29;
 }
 
-/* Estilos para as seções */
 section {
     height: 100vh;
     position: relative;
@@ -36,12 +48,9 @@ section p {
     color: #ededed;
 }
 
-section .section-content {
-    z-index: 1;
-}
-
 body {
     color: #ededed;
+    min-width: 320px;
 }
 
 img {
