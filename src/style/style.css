@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
 @media only screen and (max-width: 880px) {
+    .header a {
+        display: none;
+    }
     .home-imgHover {
         display: none;
     }
@@ -10,6 +13,10 @@
     .btns-options {
         display: grid;
         grid-row-gap: 16px;
+    }
+
+    footer {
+        font-size: 10px;
     }
 }
 
@@ -37,7 +44,7 @@ section {
 }
 
 footer {
-    background-color: #273566;
+    background-color: #00abf0;
     color: #ededed;
     display: flex;
     justify-content: space-between;
@@ -52,22 +59,11 @@ footer p {
     margin-left: 10px;
 }
 
-ul.footer-menu {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    margin-right: 10px;
-}
-
-li.footer-menu {
-    margin-right: 100px;
-}
-
 section h2 {
     font-size: 32px;
     font-weight: 700;
     margin-bottom: 30px;
-    color: #ededed;
+    color: #081b29;
 }
 
 section p {
