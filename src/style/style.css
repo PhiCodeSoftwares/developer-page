@@ -45,13 +45,13 @@ section {
 
 footer {
     background-color: #00abf0;
-    color: #ededed;
+    color: #081b29;
     display: flex;
     justify-content: space-between;
 }
 
 footer a {
-    color: #ededed;
+    color: #081b29;
     text-decoration: none;
 }
 
@@ -63,7 +63,7 @@ section h2 {
     font-size: 32px;
     font-weight: 700;
     margin-bottom: 30px;
-    color: #081b29;
+    color: #ededed;
 }
 
 section p {
